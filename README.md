@@ -10,6 +10,26 @@ In this repository, the code showcases the implementation of HebbNet, where one 
 
 The architecture of HebbNet demonstrates a synergy between Hebbian learning's unsupervised nature, mimicking neural plasticity in the brain, and the supervised learning of backpropagation, resulting in an effective learning framework for certain types of tasks.
 
+## Results
+
+After training and evaluating the HebbNet model on the MNIST dataset, the following results were obtained:
+
+- **Training Accuracy:** Achieved an average training accuracy of 96%.
+- **Test Accuracy:** Achieved an accuracy of 97% on the test dataset.
+
+### Visualization of Weights
+
+The visualization below showcases the learned Hebbian weights after training on the MNIST dataset:
+
+<img src='hebbian_weights_visualization_examples/3.png' width='200'>
+<img src='hebbian_weights_visualization_examples/5.png' width='200'>
+
+The results demonstrate the effectiveness and performance of the Hebbian learning rule in the HebbNet model.
+
+
+## Additional Insights on HebbNet and Hebbian Learning: 
+For more in-depth information about HebbNet and insights into Hebbian Learning, you can explore additional content on <a href="https://medium.com/@reutdayan1/hebbian-learning-biologically-plausible-alternative-to-backpropagation-6ee0a24deb00">my blog</a>
+
 ## Project Structure
 
 The project is structured as follows:
@@ -40,25 +60,6 @@ To train and evaluate the HebbNet model, run `main.py`.
 ```bash
 python main.py
 ```
-
-## Results
-
-After training and evaluating the HebbNet model on the MNIST dataset, the following results were obtained:
-
-- **Training Accuracy:** Achieved an average training accuracy of 96%.
-- **Test Accuracy:** Achieved an accuracy of 97% on the test dataset.
-
-### Visualization of Weights
-
-The visualization below showcases the learned Hebbian weights after training on the MNIST dataset:
-
-![Weights Visualization](path/to/visualization_image.png)
-
-The results demonstrate the effectiveness and performance of the Hebbian learning rule in the HebbNet model.
-
-
-## Additional Insights on HebbNet and Hebbian Learning: 
-For more in-depth information about HebbNet and insights into Hebbian Learning, you can explore additional content on <a href="https://medium.com/@reutdayan1/hebbian-learning-biologically-plausible-alternative-to-backpropagation-6ee0a24deb00">my blog</a>
 
 ## Acknowledgments
 The implementation follows the principles of the HebbNet paper and utilizes PyTorch functionalities for neural network development.
