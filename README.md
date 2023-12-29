@@ -14,8 +14,8 @@ The architecture of HebbNet demonstrates a synergy between Hebbian learning's un
 
 After training and evaluating the HebbNet model on the MNIST dataset, the following results were obtained:
 
-- **Training Accuracy:** Achieved an average training accuracy of 96%.
-- **Test Accuracy:** Achieved an accuracy of 97% on the test dataset.
+- **Training Accuracy:** Achieved an average training accuracy of 94.4%.
+- **Test Accuracy:** Achieved an accuracy of 92.7% on the test dataset.
 
 ### Visualization of Weights
 
